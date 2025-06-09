@@ -1,46 +1,45 @@
-# Valentine's Day Website
+# Site de Dia dos Namorados
 
-This project is a simple Valentine's Day website that features a romantic theme, perfect for celebrating love. The website includes a button with a flower icon that, when clicked, displays a central photo of a couple along with a slideshow of various photos. Below the slideshow, there is a heartfelt declaration saying "Happy Valentine's Day."
+Este projeto é um site romântico de Dia dos Namorados feito especialmente para celebrar o amor entre Victor e Yasmin. O site conta com um tema delicado, perfeito para surpreender quem você ama. Ao clicar no botão com o ícone de flor, o site revela uma linda declaração e um slideshow de fotos do casal.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 valentines-day-website
 ├── src
-│   ├── index.html        # Main HTML document for the website
-│   ├── style.css        # Styles for the website
-│   ├── script.js        # JavaScript functionality for the website
-│   └── images           # Directory for storing couple's photo and slideshow images
-└── README.md            # Documentation for the project
+│   ├── index.html        # Documento HTML principal do site
+│   ├── style.css         # Estilos do site
+│   ├── script.js         # Funcionalidades em JavaScript
+│   └── images            # Pasta para as fotos do casal e do slideshow
+└── README.md             # Documentação do projeto
 ```
 
-## Getting Started
+## Como Usar
 
-To set up and run the Valentine's Day website, follow these steps:
+Para configurar e rodar o site de Dia dos Namorados:
 
-1. **Clone the repository** (if applicable):
+1. **Clone o repositório** (se aplicável):
    ```
-   git clone <repository-url>
+   git clone <url-do-repositorio>
    ```
 
-2. **Navigate to the project directory**:
+2. **Acesse a pasta do projeto**:
    ```
    cd valentines-day-website
    ```
 
-3. **Add your images**:
-   Place your couple's photo and any other images for the slideshow in the `src/images` directory.
+3. **Adicione suas imagens**:
+   Coloque as fotos do casal e as imagens do slideshow na pasta `src/images`.
 
-4. **Open the website**:
-   Open `src/index.html` in your web browser to view the website.
+4. **Abra o site**:
+   Abra o arquivo `src/index.html` no seu navegador para visualizar o site.
 
-## Features
+## Funcionalidades
 
-- A button with a flower icon that reveals the main content when clicked.
-- A central photo of the couple.
-- A slideshow showcasing various photos.
-- A declaration of love: "Happy Valentine's Day."
+- Botão com ícone de flor que revela o conteúdo principal ao ser clicado.
+- Slideshow com várias fotos do casal.
+- Declaração romântica personalizada para Yasmin: "Feliz Dia dos Namorados, Yasmin!"
 
-## Customization
+## Personalização
 
-Feel free to customize the styles in `src/style.css` and the functionality in `src/script.js` to make the website your own. Enjoy celebrating love!
+Sinta-se à vontade para personalizar os estilos em `src/style.css` e as funcionalidades em `src/script.js` para deixar o site ainda mais especial. Aproveite para celebrar o amor!
