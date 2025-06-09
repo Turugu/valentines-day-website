@@ -284,6 +284,15 @@ body::before, body::after {
 @media (max-width: 700px) {
     .slideshow-container {
         height: 250px;
+        max-width: 98vw;
+        width: 98vw;
+    }
+    .slide {
+        max-height: 220px;
+        object-fit: contain;
+        width: 100%;
+        left: 0;
+        top: 0;
     }
     .declaration {
         font-size: 18px;
@@ -291,5 +300,53 @@ body::before, body::after {
     }
     .declaration h1 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        height: auto;
+        min-height: 100vh;
+        padding: 0 2vw;
+    }
+    .slideshow-container {
+        height: 38vw;
+        min-height: 140px;
+        max-height: 200px;
+        width: 100vw;
+        border-radius: 12px;
+    }
+    .slide {
+        max-height: 180px;
+        border-radius: 12px;
+        object-fit: contain;
+    }
+    .declaration {
+        font-size: 15px;
+        padding: 10px 4px 8px 4px;
+    }
+    .declaration h1 {
+        font-size: 1.3rem;
+    }
+    .flower-button {
+        font-size: 2.2rem;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    .slideshow-container {
+        min-height: 90px;
+        max-height: 120px;
+    }
+    .slide {
+        max-height: 100px;
+    }
+    .declaration {
+        font-size: 12px;
+        padding: 6px 2px 4px 2px;
+    }
+    .declaration h1 {
+        font-size: 1rem;
     }
 }
